@@ -1,0 +1,28 @@
+<resources>
+	<!-- Navigation title on the first tab -->
+	<string name="kTabGroup1Title">kTabGroup1Title</string>
+	<!-- Navigation title on the second tab -->
+	<string name="kTabGroup2Title">kTabGroup2Title</string>
+	<!-- First tab label -->
+	<string name="kTab1Label">kTab1_label</string>
+	<!-- Second tab label -->
+	<string name="kTab2Label">kTab2_label</string>
+	<!-- Title textfield hint -->
+	<string name="kFormTitleTF">kFormTitleTF</string>
+	<!-- Subtitle textfield hint -->
+    <string name="kFormSubtitleTF">kFormSubtitleTF</string>
+    <!-- Link textfield hint -->
+    <string name="kFormLinkTF">kFormLinkTF</string>
+    <!-- Latitude textfield hint -->
+    <string name="kFormLatitudeTF">kFormLatitudeTF</string>
+    <!-- Longitude textfield hint -->
+    <string name="kFormLongitudeTF">kFormLongitudeTF</string>
+    <!-- Save button on the form -->
+	<string name="kSaveFormButton">kSaveFormButton</string>
+	
+	<!--
+	<string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+   -->
+</resources>
