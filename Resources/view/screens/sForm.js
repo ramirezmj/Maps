@@ -9,7 +9,7 @@ function sForm(win, mapView)
 	
 	// Constants
 		var borderStyleTF		= Ti.UI.INPUT_BORDERSTYLE_ROUNDED;
-		var colorTF 	  		= '#336699';
+		var colorTF 	  		= '#000';
 		var kTopConstant  		= 8;
 		var kLeftRightConstaint = 16;
 	
@@ -70,7 +70,8 @@ function sForm(win, mapView)
 		
 	// Save Button	
 		var saveButton = Titanium.UI.createButton({
-			title: L('kSaveFormButton')	
+			title: L('kSaveFormButton'),
+			tintColor: '#fd4436'
 		});
 		box.add(saveButton);
 		
@@ -91,7 +92,8 @@ function sForm(win, mapView)
 		
 	// Reset Button
 		var resetButton = Titanium.UI.createButton({
-			title: L('kResetFormButton')	
+			title: L('kResetFormButton'),
+			tintColor: '#fd4436'
 		});
 		box.add(resetButton);
 		

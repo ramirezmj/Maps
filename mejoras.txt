@@ -2,3 +2,4 @@ Se han añadido:
 - Icono de la aplicación (iPhone 5).
 - SplashScreen (iPhone 5).
 - Iconos en el TabBar.
+- Diseño de interfaz.

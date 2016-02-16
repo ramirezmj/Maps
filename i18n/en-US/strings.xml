@@ -18,7 +18,7 @@
     <!-- Longitude textfield hint -->
     <string name="kFormLongitudeTF">Longitude</string>
     <!-- Save button on the form -->
-	<string name="kSaveFormButton">Save</string>
+	<string name="kSaveFormButton">Add</string>
 	<!-- Reset button on the form -->
-	<string name="kResetFormButton">Reset</string>
+	<string name="kResetFormButton">Reset data</string>
 </resources>

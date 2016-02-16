@@ -1,13 +1,19 @@
 var defaultFontSize = Ti.Platform.name === 'android' ? 16 : 14;
 
 var win1 = Titanium.UI.createWindow({  
-    title:L('kTabGroup1Title'),
-    backgroundColor:'#fff'
+    backgroundColor:'#fff',
+	titleControl: Ti.UI.createLabel({ 
+    	text: L('kTabGroup1Title'), 
+    	color: 'white',  
+  	})
 });
 // create controls tab and root window
 var win2 = Titanium.UI.createWindow({  
-    title:L('kTabGroup2Title'),
-    backgroundColor:'#fff'
+    backgroundColor:'#fff',
+    titleControl: Ti.UI.createLabel({ 
+    	text: L('kTabGroup2Title'), 
+    	color: 'white',  
+  	})
 });
 		
 var TabGroup = require('view/components/cTabGroup');

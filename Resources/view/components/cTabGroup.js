@@ -8,16 +8,19 @@ function cTabGroup(w1, w2)
 	
 	this.build = function () {
 		// create tab group
-		var tabGroup = Titanium.UI.createTabGroup();
+		var tabGroup = Titanium.UI.createTabGroup({			
+			tabsTintColor: '#fd4436', 
+			barColor: '#FC575E'
+		});
 		
 		var tab1 = Titanium.UI.createTab({  
-		    icon:'KS_nav_views.png',
+		    icon:'images/point-of-interest.png',
 		    title:L('kTab1Label'),
 		    window:this.win1
 		});
 		
 		var tab2 = Titanium.UI.createTab({  
-		    icon:'KS_nav_ui.png',
+		    icon:'images/add-to-map.png',
 		    title:L('kTab2Label'),
 		    window:this.win2
 		});
