@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>edu.ramirezmj.TemplateProject</id>
-    <name>TemplateProject</name>
+    <id>edu.ramirezmj.maps</id>
+    <name>Maps</name>
     <version>1.0</version>
     <publisher>savy</publisher>
     <url>http://github.com/ramirezmj</url>
     <description>undefined</description>
-    <copyright>2016 by savy</copyright>
+    <copyright>2016 by Jose Manuel Ramírez Martínez</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
@@ -47,7 +47,10 @@
         </splash>
         <theme>default</theme>
     </mobileweb>
-    <modules/>
+    <modules>
+        <module platform="iphone">ti.map</module>
+        <module platform="android">ti.map</module>
+    </modules>
     <deployment-targets>
         <target device="android">false</target>
         <target device="ipad">true</target>

@@ -1,0 +1,24 @@
+<resources>
+	<!-- Navigation title on the first tab -->
+	<string name="kTabGroup1Title">POI Barcelona</string>
+	<!-- Navigation title on the second tab -->
+	<string name="kTabGroup2Title">Add Point of Interest</string>
+	<!-- First tab label -->
+	<string name="kTab1Label">POI</string>
+	<!-- Second tab label -->
+	<string name="kTab2Label">Add</string>
+	<!-- Title textfield hint -->
+	<string name="kFormTitleTF">Title</string>
+	<!-- Subtitle textfield hint -->
+    <string name="kFormSubtitleTF">Subtitle</string>
+    <!-- Link textfield hint -->
+    <string name="kFormLinkTF">Link</string>
+    <!-- Latitude textfield hint -->
+    <string name="kFormLatitudeTF">Latitude</string>
+    <!-- Longitude textfield hint -->
+    <string name="kFormLongitudeTF">Longitude</string>
+    <!-- Save button on the form -->
+	<string name="kSaveFormButton">Add</string>
+	<!-- Reset button on the form -->
+	<string name="kResetFormButton">Reset data</string>
+</resources>
