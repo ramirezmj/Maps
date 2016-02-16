@@ -7,7 +7,8 @@ function sMap(win)
 	this.mapView = null;
 	this.build = function()
 	{
-		var map_data = require('data/poi').get();  
+		var map_data = require('data/poi').init();
+		
 		var Map = require('ti.map');
 		var mapView = Map.createView({
 			mapType: Map.NORMAL_TYPE,

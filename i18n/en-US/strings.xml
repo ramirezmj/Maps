@@ -1,28 +1,24 @@
 <resources>
 	<!-- Navigation title on the first tab -->
-	<string name="kTabGroup1Title">kTabGroup1Title</string>
+	<string name="kTabGroup1Title">POI Barcelona</string>
 	<!-- Navigation title on the second tab -->
-	<string name="kTabGroup2Title">kTabGroup2Title</string>
+	<string name="kTabGroup2Title">Add Point of Interest</string>
 	<!-- First tab label -->
-	<string name="kTab1Label">kTab1_label</string>
+	<string name="kTab1Label">POI</string>
 	<!-- Second tab label -->
-	<string name="kTab2Label">kTab2_label</string>
+	<string name="kTab2Label">Add</string>
 	<!-- Title textfield hint -->
-	<string name="kFormTitleTF">kFormTitleTF</string>
+	<string name="kFormTitleTF">Title</string>
 	<!-- Subtitle textfield hint -->
-    <string name="kFormSubtitleTF">kFormSubtitleTF</string>
+    <string name="kFormSubtitleTF">Subtitle</string>
     <!-- Link textfield hint -->
-    <string name="kFormLinkTF">kFormLinkTF</string>
+    <string name="kFormLinkTF">Link</string>
     <!-- Latitude textfield hint -->
-    <string name="kFormLatitudeTF">kFormLatitudeTF</string>
+    <string name="kFormLatitudeTF">Latitude</string>
     <!-- Longitude textfield hint -->
-    <string name="kFormLongitudeTF">kFormLongitudeTF</string>
+    <string name="kFormLongitudeTF">Longitude</string>
     <!-- Save button on the form -->
-	<string name="kSaveFormButton">kSaveFormButton</string>
-	
-	<!--
-	<string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-   -->
+	<string name="kSaveFormButton">Save</string>
+	<!-- Reset button on the form -->
+	<string name="kResetFormButton">Reset</string>
 </resources>
